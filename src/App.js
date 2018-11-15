@@ -5,7 +5,7 @@ import routes from './router/routes.js'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 //Styles
-import './App.css';
+import './styles/App.sass';
 
 //redux things
 import { connect } from 'react-redux';
