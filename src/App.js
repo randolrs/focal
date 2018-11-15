@@ -25,12 +25,6 @@ class App extends Component {
       <div className="App">
         <Nav />
           <div className="main">
-            <pre>
-             {
-              JSON.stringify(this.props)
-             }
-            </pre>
-            <button onClick={this.simpleAction}>Test redux action</button>
             {routes}
           </div>
         <Footer />
